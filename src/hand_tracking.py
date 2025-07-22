@@ -50,7 +50,7 @@ class SimpleKalman:
 kalman = SimpleKalman()
 fingers_up_history = deque(maxlen=4)
 last_gesture_time = 0
-gesture_cooldown = 0.4
+gesture_cooldown = 1.5
 pointer_active = False
 calibration_mode = False
 calibration_threshold = 0.04
